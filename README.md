@@ -2,6 +2,10 @@
 
 HOPE CONNECT is a donation platform connecting donors with NGOs. This repository contains both the client (React) and server (Node/Express).
 
+DEMO VIDEO : https://drive.google.com/file/d/1YnpP9KndeOCH8TlyvHXQmF0o50HVt_6w/view?usp=drive_link
+
+REPORT : https://docs.google.com/document/d/1N43-WBx6IUFTb2NFpF7EQ1Xgy7Av1M2i/edit?usp=drive_link&ouid=102568620134445449398&rtpof=true&sd=true
+
 ##  Quick Start
 
 The project is currently running! But here is how to run it from scratch:
