@@ -47,7 +47,20 @@ const Dashboard = () => {
                 </div>
 
                 {/* Stats Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
+                    <Card className="p-6 border-l-4 border-l-purple-400">
+                        <div className="flex items-center gap-4">
+                            <div className="p-3 bg-purple-100 text-purple-600 rounded-full">
+                                <span className="font-bold text-xl">{user.name?.charAt(0).toUpperCase()}</span>
+                            </div>
+                            <div>
+                                <p className="text-sm font-medium text-stone-500">My Profile</p>
+                                <p className="text-sm font-bold text-stone-900">{user.name}</p>
+                                <p className="text-xs text-stone-500">{user.email}</p>
+                                <span className="text-xs bg-purple-100 text-purple-800 px-2 py-0.5 rounded-full mt-1 inline-block">{user.role}</span>
+                            </div>
+                        </div>
+                    </Card>
                     <Card className="p-6 border-l-4 border-l-primary-500">
                         <div className="flex items-center gap-4">
                             <div className="p-3 bg-primary-100 text-primary-600 rounded-full">
@@ -55,7 +68,7 @@ const Dashboard = () => {
                             </div>
                             <div>
                                 <p className="text-sm font-medium text-stone-500">Total Donated</p>
-                                <p className="text-2xl font-bold text-primary-900">${stats.total.toLocaleString()}</p>
+                                <p className="text-2xl font-bold text-primary-900">₹{stats.total.toLocaleString()}</p>
                             </div>
                         </div>
                     </Card>

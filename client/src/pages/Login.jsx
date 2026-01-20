@@ -100,23 +100,7 @@ const Login = () => {
                             {loading ? 'Signing in...' : 'Sign in'}
                         </Button>
 
-                        <div className="relative">
-                            <div className="absolute inset-0 flex items-center">
-                                <div className="w-full border-t border-stone-200"></div>
-                            </div>
-                            <div className="relative flex justify-center text-sm">
-                                <span className="bg-white px-2 text-stone-500">Or continue with</span>
-                            </div>
-                        </div>
 
-                        <div className="grid grid-cols-2 gap-3">
-                            <button type="button" className="flex items-center justify-center w-full px-4 py-2 border border-stone-300 rounded-lg shadow-sm bg-white text-sm font-medium text-stone-700 hover:bg-stone-50">
-                                Google
-                            </button>
-                            <button type="button" className="flex items-center justify-center w-full px-4 py-2 border border-stone-300 rounded-lg shadow-sm bg-white text-sm font-medium text-stone-700 hover:bg-stone-50">
-                                Apple
-                            </button>
-                        </div>
 
                     </form>
 

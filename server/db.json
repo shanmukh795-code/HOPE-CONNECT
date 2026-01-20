@@ -23,6 +23,54 @@
       "password": "$2b$10$ynjYr.1tw/lRT7HAA6dMnu49udHPlyojnFD4gEdn0bv3XLdx/KBO2",
       "createdAt": "2026-01-19T13:32:06.911Z",
       "role": "USER"
+    },
+    {
+      "id": 4,
+      "name": "ahkil",
+      "email": "ahkil@test.com",
+      "password": "$2b$10$bgsSjQIDXm3PY3x5IxunX.0qNBiLbQbAdMdzAceYZ2KBwx/jaZCnq",
+      "createdAt": "2026-01-20T13:47:16.422Z",
+      "role": "USER"
+    },
+    {
+      "id": 5,
+      "name": "VARSHITH",
+      "email": "varshith@test.com",
+      "password": "$2b$10$Lv8GIWinZ1XKVUk5IZplCOCSowa3WJEA2dn6wnNSGYNFj4Ldo7UNO",
+      "createdAt": "2026-01-20T13:53:54.476Z",
+      "role": "USER"
+    },
+    {
+      "id": 6,
+      "name": "",
+      "email": "unique@example.com",
+      "password": "$2b$10$dvtVkWcMOCHmDygsZMqFGexFXnztiE2Wnkk0CRHxmvpgmPPw5QK/e",
+      "createdAt": "2026-01-20T15:25:44.795Z",
+      "role": "USER"
+    },
+    {
+      "id": 7,
+      "name": "vivekk",
+      "email": "vivekk@test.com",
+      "password": "$2b$10$f9XKoBN9yAiaUfA2RSzpSuWtZQzNwTWyS6Zu4ucSBu.lRCTJ1Vvbu",
+      "createdAt": "2026-01-20T16:06:29.168Z",
+      "role": "USER"
+    },
+    {
+      "id": 8,
+      "name": "rishik",
+      "email": "rishik@test.com",
+      "password": "$2b$10$xkWP.Uw5ZxlaxwpvF3quDOEeXO16iWIzMy/AVSCxk86ory/CIZs9y",
+      "createdAt": "2026-01-20T16:54:09.990Z",
+      "role": "USER"
+    },
+    {
+      "id": 9,
+      "name": "ajay",
+      "email": "ajay@test.com",
+      "password": "$2b$10$lzXB84PQHdRuyfbqo6Cy7.o5/hqvdcODe/a39IZYP6Jg2ZpgM6y3G",
+      "createdAt": "2026-01-20T17:17:37.645Z",
+      "role": "USER"
     }
   ],
   "donations": [
@@ -135,6 +183,96 @@
       "userId": 2,
       "createdAt": "2026-01-19T11:31:18.535Z",
       "stripePaymentIntentId": "mock_pi_1768822279558"
+    },
+    {
+      "id": 14,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "SUCCESS",
+      "userId": 4,
+      "createdAt": "2026-01-20T13:48:01.613Z",
+      "stripePaymentIntentId": "mock_pi_1768916882643"
+    },
+    {
+      "id": 15,
+      "amount": 100,
+      "currency": "INR",
+      "status": "PENDING",
+      "userId": 6,
+      "stripePaymentIntentId": "order_S6BgqflCZTuZG1",
+      "createdAt": "2026-01-20T15:47:16.655Z"
+    },
+    {
+      "id": 16,
+      "amount": 14566,
+      "currency": "INR",
+      "status": "SUCCESS",
+      "userId": 6,
+      "stripePaymentIntentId": "order_S6BmfeUyhvXhrz",
+      "createdAt": "2026-01-20T15:52:47.310Z"
+    },
+    {
+      "id": 17,
+      "amount": 1000,
+      "currency": "INR",
+      "status": "SUCCESS",
+      "userId": 7,
+      "stripePaymentIntentId": "order_S6C2By0Hc7V5Ou",
+      "createdAt": "2026-01-20T16:07:28.943Z"
+    },
+    {
+      "id": 18,
+      "amount": 5000,
+      "currency": "INR",
+      "status": "PENDING",
+      "userId": 5,
+      "stripePaymentIntentId": "order_S6CUDasJVjadgg",
+      "createdAt": "2026-01-20T16:34:01.520Z"
+    },
+    {
+      "id": 19,
+      "amount": 500,
+      "currency": "INR",
+      "status": "FAILED",
+      "userId": 5,
+      "stripePaymentIntentId": "order_S6CasCSd63cG6G",
+      "createdAt": "2026-01-20T16:40:19.420Z"
+    },
+    {
+      "id": 20,
+      "amount": 100000,
+      "currency": "INR",
+      "status": "SUCCESS",
+      "userId": 8,
+      "stripePaymentIntentId": "order_S6CsIBVCyl7bDN",
+      "createdAt": "2026-01-20T16:56:48.885Z"
+    },
+    {
+      "id": 21,
+      "amount": 500,
+      "currency": "INR",
+      "status": "FAILED",
+      "userId": 8,
+      "stripePaymentIntentId": "order_S6CuXLbIX2NW8G",
+      "createdAt": "2026-01-20T16:58:56.340Z"
+    },
+    {
+      "id": 22,
+      "amount": 10000,
+      "currency": "INR",
+      "status": "SUCCESS",
+      "userId": 9,
+      "stripePaymentIntentId": "order_S6DFMeO9VDQarv",
+      "createdAt": "2026-01-20T17:18:39.356Z"
+    },
+    {
+      "id": 23,
+      "amount": 10000,
+      "currency": "INR",
+      "status": "FAILED",
+      "userId": 9,
+      "stripePaymentIntentId": "order_S6DGXEJhYRlchZ",
+      "createdAt": "2026-01-20T17:19:45.849Z"
     }
   ]
 }
