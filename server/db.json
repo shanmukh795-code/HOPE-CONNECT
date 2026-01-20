@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@test.com",
+      "password": "$2b$10$ku4bFm48YtAfUqfYhKA6g..m6DYBymVhIGTm9FbRtK/FgfPvtYjwe",
+      "createdAt": "2026-01-19T10:29:04.846Z",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "name": "VIVEK",
+      "email": "vivek@test.com",
+      "password": "$2b$10$5HiHPrVWJkoiugcCT9US3.nuB/nQ4P3XsFtChq38XHmHBzzRIHdty",
+      "createdAt": "2026-01-19T10:31:20.160Z",
+      "role": "USER"
+    },
+    {
+      "id": 3,
+      "name": "Fix Verification",
+      "email": "fix@example.com",
+      "password": "$2b$10$ynjYr.1tw/lRT7HAA6dMnu49udHPlyojnFD4gEdn0bv3XLdx/KBO2",
+      "createdAt": "2026-01-19T13:32:06.911Z",
+      "role": "USER"
+    }
+  ],
+  "donations": [
+    {
+      "id": 1,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "PENDING",
+      "userId": 2,
+      "createdAt": "2026-01-19T10:33:26.596Z"
+    },
+    {
+      "id": 2,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "PENDING",
+      "userId": 2,
+      "createdAt": "2026-01-19T10:33:49.304Z"
+    },
+    {
+      "id": 3,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "PENDING",
+      "userId": 2,
+      "createdAt": "2026-01-19T10:34:01.486Z"
+    },
+    {
+      "id": 4,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "PENDING",
+      "userId": 2,
+      "createdAt": "2026-01-19T10:34:24.616Z"
+    },
+    {
+      "id": 5,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "PENDING",
+      "userId": 2,
+      "createdAt": "2026-01-19T10:34:42.907Z"
+    },
+    {
+      "id": 6,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "PENDING",
+      "userId": 2,
+      "createdAt": "2026-01-19T10:34:43.697Z"
+    },
+    {
+      "id": 7,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "PENDING",
+      "userId": 2,
+      "createdAt": "2026-01-19T10:34:43.857Z"
+    },
+    {
+      "id": 8,
+      "amount": 500000,
+      "currency": "usd",
+      "status": "SUCCESS",
+      "userId": 2,
+      "createdAt": "2026-01-19T10:37:56.728Z",
+      "stripePaymentIntentId": "mock_pi_1768819077749"
+    },
+    {
+      "id": 9,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "SUCCESS",
+      "userId": 2,
+      "createdAt": "2026-01-19T11:00:33.983Z",
+      "stripePaymentIntentId": "mock_pi_1768820435015"
+    },
+    {
+      "id": 10,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "SUCCESS",
+      "userId": 2,
+      "createdAt": "2026-01-19T11:01:10.609Z",
+      "stripePaymentIntentId": "mock_pi_1768820471622"
+    },
+    {
+      "id": 11,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "SUCCESS",
+      "userId": 2,
+      "createdAt": "2026-01-19T11:01:32.615Z",
+      "stripePaymentIntentId": "mock_pi_1768820493626"
+    },
+    {
+      "id": 12,
+      "amount": 50,
+      "currency": "usd",
+      "status": "SUCCESS",
+      "userId": 2,
+      "createdAt": "2026-01-19T11:19:59.349Z",
+      "stripePaymentIntentId": "mock_pi_1768821600360"
+    },
+    {
+      "id": 13,
+      "amount": 100000,
+      "currency": "usd",
+      "status": "SUCCESS",
+      "userId": 2,
+      "createdAt": "2026-01-19T11:31:18.535Z",
+      "stripePaymentIntentId": "mock_pi_1768822279558"
+    }
+  ]
+}
