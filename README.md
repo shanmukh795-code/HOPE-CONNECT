@@ -1,4 +1,4 @@
--+# HOPE CONNECT 
+## HOPE CONNECT 
 
 HOPE CONNECT is a donation platform connecting donors with NGOs. This repository contains both the client (React) and server (Node/Express).
 
